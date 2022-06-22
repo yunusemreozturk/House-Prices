@@ -1,0 +1,166 @@
+MssubClass - konut tipi - kategorik olarak ayır - ohe
+
++ MSZoning - satış tipi hani endustri mi tarım mı gibi - kategorik verilere ayrılabilir - ohe
+
++ LotFrontage - caddeye ne kadar uzak - 
+
+LotArea - arsa büyüklüğü
+
+Street - mülke erişim yol tipi - le
+
+- Alley
+
+- LotShape - mülkün şekli - ohe
+
+- LandContour - mülkün düzlüğü - ohe
+
++ Utilities - elektrik su doğalgaz var mı - ohe
+
+- LotConfig - anlamadım - ohe
+
+LandSlope - mülkün eğimi - ohe
+
+Neighborhood - evin yakın olduğu şehir merkezleri gibi bir şey - ohe
+
+Condition1 - bazı yerlere yakınlık - ohe
+
+- Condition2 - birden fazla yere yakın ise - ohe
+
+BldgType - konut tipi - ohe
+
+HouseStyle - Ev tipi - ohe
+
+OverallQuall - evin genel malzemesinin değerlendirilmesi 1'den 10'a - bunda ne kullanacağımı bilmiyorum
+
+OverallCond - evin genel durumunun değerlendirilmesi 1'den 10'a 
+
+YearBuilt - yapım yılı - Burada şu anki yıldan çıkarma yapıp öyle bir değerlendirmeye tabi tutabiliriz
+
+- YearRemodAdd - tadilat tarihi eğer yapılmışsa - YearBuilt ile aynı yöntem kullanılabilir
+
+RoofStyle - çatı tipi - ohe
+
+- RoofMatl - çatı malzemesi - ohe
+
++ Exterior1st - evin dış kaplaması - ohe
+
+- Exterior2nd - evin dış kaplaması birden fazla var ise - ohe
+
++ MasVnrType - ev kaplama tip, tuğla mı taş mı gibi - ohe
+
+- MasVnrArea - kaplanan duvarın alanı
+
+ExterQual - dış cepe malzeme kalitesinin değerlendirmesi - 1'den 10'a 
+
+ExterCond - dış cepe olarak değerlendirilmesi - 1'den 10'a
+
+Foundation - temel türü - ohe
+
+- BsmtQual - bodrum katı yüksekliğinin değerlendirilmesi - Ex'den NA'ya
+
++ BsmtCond - bodrum genel durumu - Ex'den NA'ya
+
+- BsmtExposure - anlamadım
+
+- BsmtFinType1 - bodrumun bitmiş halinin değerlendirilmesi - ohe
+
+- BsmtFinSF1 - bodrumun bitmiş halinin alanı
+
+- BsmtFinType2 - bodrumun bitmiş halinin değerlendirmesi - ohe
+
+- BsmtFinSF2 - anlamadım
+
+- BsmtUnfSF - bodrumun bitmemiş metrekarelik alanı
+
++ TotalBsmtSF - toplam bodrum alanı 
+
+Heating - ısıtma tipi
+
+HeatingQC - ısıtma kalitesi - ohe
+
+CentralAir - merkezi klima var mı yok mu - le
+
++ Electrical - elektrik sistemi - ohe
+
+1stFlrSF - birinci kat metrekare alanı
+
+2ndFlrSF - ikinci kat metrekare alanı
+
+- LowQualFinSF - anlamadım
+
+- GrLivArea - anlamadım
+
+- BsmtFullBath - bodrum tüm banyolar 
+
+- BsmtHalfBath - bodrum yarım banyolar
+
++ FullBath - tüm banyolar
+
++ HalfBath - tüm yarım banyolar 
+
+Bedroom - yatak oda sayısı
+
+Kitchen - mutfak sayısı
+
++ KitchenQual - mutfak kalitesi
+
+TotRmsAbvGrd - oda sayısı
+
++ Functional - ev tipi, normal dekore mi edilmiş modern mi gibi - ohe
+
+Fireplaces - şömine sayısı
+
+- FireplaceQu - şömine kalitesi - ohe
+
+- GarageType - garaj tipi
+
+- GarageYrBlt - garaj ne zaman inşa edildi
+
+- GarageFinish - garajın iç dekorasyonu 
+
++ GarageCars - garaj kaç araba alabiliyor
+
++ GarageArea - garaj metrekaresi
+
++ GarageQual - garaj kalitesi - ohe
+
++ GarageCond - garaj durumu - ohe
+
+- PavedDrive - araba yolu gibi bir şey - ohe
+
+- WoodDeckSF - ahşap güverte alanı 
+
++ OpenPorchSF - açık veranda alanı
+
++ EnclosedPorch - kapalı veranda alanı
+
+- 3SsnPorch - 3 sezon veranda alanı
+
+- ScreenPorch  anlamadım
+
++ PoolArea - havuz alanı
+
+- PoolQC - havuz kalite değerlendirmesi - ohe - veri sayısı az
+
+- Fence - çit kalitesi - ohe
+
++ MiscFeature - diğer kategorilerde olmayan özellikler - ohe - burada az veri var ama önemliler
+
+MiscVal - diğer kategorilerde olmayan özelliklerin para değerleri 
+
+- MoSold - hangi ayda satıldı olarak anladım
+
+- YrSold - hangi yılda satıldı olarak anladım
+
++ SaleType - satış tipi, garantili mi, yeni yapılıp hemen satıldı mı gibi - ohe
+
++ SaleCondition - satılma durumu, normal mi haciz getirilerek mi gibi - ohe
+
+
+
+
+
+
+
+
+
